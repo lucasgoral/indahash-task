@@ -1,5 +1,4 @@
 .people {
-    border: 1px solid salmon;
     background-image: url("../images/bg.png");
     background-position: center center;
     background-repeat: repeat;
@@ -8,11 +7,20 @@
         color: $secondary-color;
         font-weight: 600;
     }
+    &__grid {
+        // display: grid;
+        // grid-column-gap: 50px;
+        // grid-row-gap: 50px;
+        // grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        max-width: 1280px;
+        margin: 0 auto;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
     &__item {
-        width: 20%;
-        float: left;
         border: 1px solid green;
         padding: 1rem;
+        width: 20%;
     }
     &__mail {
         height: 40px;
@@ -27,6 +35,12 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: 18px 12px;
+        transition: ease .4s background-color;
+        &:focus,
+        &:hover {
+            background-color: lighten($secondary-color, 10%);
+            cursor: pointer;
+        }
     }
     &__avatar-wrapper {
         position: relative;
@@ -43,6 +57,15 @@
             position: relative;
             padding-bottom: 100%;
         }
+    }
+    &__overlay {
+        background: $primary-color;
+        opacity: .75;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
     }
     &__name {
         color: $secondary-color;
