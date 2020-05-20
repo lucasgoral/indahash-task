@@ -1,0 +1,23 @@
+.people {
+  border: 1px solid salmon;
+  background-image: url("/images/bg.png");
+  background-position: center center;
+  background-repeat: repeat;
+  overflow: hidden;
+}
+.people__item {
+  width: 20%;
+  float: left;
+  border: 1px solid green;
+}
+.people__avatar {
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+}
+.people__avatar::before {
+  display: block;
+  content: "";
+  position: relative;
+  padding-bottom: 100%;
+}

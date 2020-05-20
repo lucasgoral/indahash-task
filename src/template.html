@@ -2,17 +2,43 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
 
 </head>
 
 <body>
 
-  <div id="root"></div>
+
+    <section class="people">
+        <div>
+            <h2 class="h1">Meet our team</h2>
+        </div>
+        <div class="people__grid">
+
+            <div class="people__item">
+                <div class="people__avatar-wrapper">
+                    <div class="people__avatar" style="background-image: url('https://placebeard.it/640x640');"></div>
+                    <div class="people__mail"></div>
+                </div>
+                <div class="people__description">
+                    <h3 class="people__name">Lorem ipsum</h3>
+                    <h4 class="people__title">CEO</h4>
+                    <h4 class="people__location">Warsaw</h4>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </section>
 
 </body>
 

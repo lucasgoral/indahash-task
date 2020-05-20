@@ -1,0 +1,59 @@
+.people {
+    border: 1px solid salmon;
+    background-image: url("../images/bg.png");
+    background-position: center center;
+    background-repeat: repeat;
+    overflow: hidden;
+    h2 {
+        color: $secondary-color;
+        font-weight: 600;
+    }
+    &__item {
+        width: 20%;
+        float: left;
+        border: 1px solid green;
+        padding: 1rem;
+    }
+    &__mail {
+        height: 40px;
+        width: 40px;
+        background: $secondary-color;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        z-index: 10;
+        border-radius: 50%;
+        background-image: url("../images/mail.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 18px 12px;
+    }
+    &__avatar-wrapper {
+        position: relative;
+    }
+    &__avatar {
+        overflow: hidden;
+        position: relative;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center center;
+        &::before {
+            display: block;
+            content: "";
+            position: relative;
+            padding-bottom: 100%;
+        }
+    }
+    &__name {
+        color: $secondary-color;
+        font-weight: 400;
+    }
+    &__title {
+        color: $primary-color;
+        font-weight: 400;
+    }
+    &__location {
+        color: $gray;
+        font-weight: 400;
+    }
+}

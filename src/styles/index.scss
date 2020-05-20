@@ -1,18 +1,38 @@
-@font-face {
-  font-family: 'Roboto';
-  src: url(../fonts/Roboto-Regular.ttf)
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 @import 'variables';
-
 html {
-  font-size: $root-font-size;
-  font-family: $font-family;
-  max-width: $page-width;
-  margin: 0 auto;
-  text-align: center;
+    font-size: $root-font-size;
+    font-family: 'Open Sans', sans-serif;
+    max-width: $page-width;
+    margin: 0 auto;
+    text-align: center;
 }
 
 p {
-  font-size: $paragraph-font-size;
+    font-size: $paragraph-font-size;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+@import 'components/people';
+h1,
+.h1 {
+    font-size: 60px;
+}
+
+h2,
+.h2 {
+    font-size: 40px;
+}
+
+h3,
+.h3 {
+    font-size: 20px;
+}
+
+h4,
+.h4 {
+    font-size: 14px;
 }
