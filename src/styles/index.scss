@@ -9,6 +9,16 @@ body {
     text-align: center;
 }
 
+html {
+    margin-right: calc(100% - 100vw);
+    overflow-x: hidden;
+}
+
+body {
+    margin-right: calc(100vw - 100%);
+    overflow-x: hidden;
+}
+
 p {
     font-size: $paragraph-font-size;
 }

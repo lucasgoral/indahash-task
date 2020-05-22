@@ -1,4 +1,5 @@
 import Swiper from 'swiper';
+const bodyScrollLock = require('body-scroll-lock');
 class peopleSwiper {
 
     constructor() {
@@ -34,11 +35,12 @@ class peopleSwiper {
         this.peopleSlider.classList.add('open')
         this.peopleSlider.tabIndex = "0"
         this.swiper.slideTo(slide, 0);
+        bodyScrollLock.disableBodyScroll(this.peopleSlider);
     }
     closeModal() {
         this.peopleSlider.classList.remove('open')
         this.peopleSlider.tabIndex = "-1"
-
+        bodyScrollLock.enableBodyScroll(this.peopleSlider);
     }
 
     initSwiper() {

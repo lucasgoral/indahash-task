@@ -46,6 +46,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "body-scroll-lock": "^3.0.2",
     "swiper": "^5.4.1"
   }
 }
