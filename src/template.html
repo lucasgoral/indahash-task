@@ -14,7 +14,7 @@
 
 <body>
 
-    <section class="people-slider" data-people-slider>
+    <section class="people-slider" data-people-slider tabindex="-1">
         <button type="button" class="people-slider__close" data-close>X</button>
         <!-- Slider main container -->
         <div class="swiper-container people-slider__container">
@@ -42,8 +42,57 @@
                     </div>
                 </div>
 
+                <div class="swiper-slide people-slider__slide">
+                    <div class="people-slider__wrapper">
+                        <h3 class="people-slider__title">Founder</h3>
+                        <h2 class="people-slider__name">Basia Sołtysińka 04</h2>
+                    </div>
+                </div>
 
-                ...
+                <div class="swiper-slide people-slider__slide">
+                    <div class="people-slider__wrapper">
+                        <h3 class="people-slider__title">Founder</h3>
+                        <h2 class="people-slider__name">Basia Sołtysińka 05</h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide people-slider__slide">
+                    <div class="people-slider__wrapper">
+                        <h3 class="people-slider__title">Founder</h3>
+                        <h2 class="people-slider__name">Basia Sołtysińka 06</h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide people-slider__slide">
+                    <div class="people-slider__wrapper">
+                        <h3 class="people-slider__title">Founder</h3>
+                        <h2 class="people-slider__name">Basia Sołtysińka 07</h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide people-slider__slide">
+                    <div class="people-slider__wrapper">
+                        <h3 class="people-slider__title">Founder</h3>
+                        <h2 class="people-slider__name">Basia Sołtysińka 08</h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide people-slider__slide">
+                    <div class="people-slider__wrapper">
+                        <h3 class="people-slider__title">Founder</h3>
+                        <h2 class="people-slider__name">Basia Sołtysińka 09</h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide people-slider__slide">
+                    <div class="people-slider__wrapper">
+                        <h3 class="people-slider__title">Founder</h3>
+                        <h2 class="people-slider__name">Basia Sołtysińka 10</h2>
+                    </div>
+                </div>
+
+
+
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -56,7 +105,7 @@
             <div class="swiper-scrollbar"></div>
         </div>
     </section>
-    <section class="people">
+    <section class="people" data-people-list>
         <div>
             <h2 class="h1">Meet our team</h2>
         </div>
@@ -65,7 +114,7 @@
 
             <div class="people__item">
                 <div class="people__avatar-wrapper">
-                    <div class="people__avatar" style="background-image: url('assets/images/person_01.jpg');">
+                    <div class="people__avatar" data-person style="background-image: url('assets/images/person_01.jpg');">
 
                     </div>
                     <a class="people__mail"></a>
@@ -79,7 +128,7 @@
 
             <div class="people__item">
                 <div class="people__avatar-wrapper">
-                    <div class="people__avatar" style="background-image: url('assets/images/person_02.jpg');">
+                    <div class="people__avatar" data-person style="background-image: url('assets/images/person_02.jpg');">
 
                     </div>
                     <a class="people__mail"></a>
@@ -93,7 +142,7 @@
 
             <div class="people__item">
                 <div class="people__avatar-wrapper">
-                    <div class="people__avatar" style="background-image: url('assets/images/person_03.jpg');">
+                    <div class="people__avatar" data-person style="background-image: url('assets/images/person_03.jpg');">
 
                     </div>
                     <a class="people__mail"></a>
@@ -107,7 +156,7 @@
 
             <div class="people__item">
                 <div class="people__avatar-wrapper">
-                    <div class="people__avatar" style="background-image: url('assets/images/person_04.jpg');">
+                    <div class="people__avatar" data-person style="background-image: url('assets/images/person_04.jpg');">
 
                     </div>
                     <a class="people__mail"></a>
@@ -121,7 +170,7 @@
 
             <div class="people__item">
                 <div class="people__avatar-wrapper">
-                    <div class="people__avatar" style="background-image: url('assets/images/person_05.jpg');">
+                    <div class="people__avatar" data-person style="background-image: url('assets/images/person_05.jpg');">
 
                     </div>
                     <a class="people__mail"></a>
@@ -135,7 +184,7 @@
 
             <div class="people__item">
                 <div class="people__avatar-wrapper">
-                    <div class="people__avatar" style="background-image: url('assets/images/person_01.jpg');">
+                    <div class="people__avatar" data-person style="background-image: url('assets/images/person_01.jpg');">
 
                     </div>
                     <a class="people__mail"></a>
@@ -149,7 +198,7 @@
 
             <div class="people__item">
                 <div class="people__avatar-wrapper">
-                    <div class="people__avatar" style="background-image: url('assets/images/person_02.jpg');">
+                    <div class="people__avatar" data-person style="background-image: url('assets/images/person_02.jpg');">
 
                     </div>
                     <a class="people__mail"></a>
@@ -163,7 +212,7 @@
 
             <div class="people__item">
                 <div class="people__avatar-wrapper">
-                    <div class="people__avatar" style="background-image: url('assets/images/person_03.jpg');">
+                    <div class="people__avatar" data-person style="background-image: url('assets/images/person_03.jpg');">
 
                     </div>
                     <a class="people__mail"></a>
@@ -177,7 +226,7 @@
 
             <div class="people__item">
                 <div class="people__avatar-wrapper">
-                    <div class="people__avatar" style="background-image: url('assets/images/person_04.jpg');">
+                    <div class="people__avatar" data-person style="background-image: url('assets/images/person_04.jpg');">
 
                     </div>
                     <a class="people__mail"></a>
@@ -191,7 +240,7 @@
 
             <div class="people__item">
                 <div class="people__avatar-wrapper">
-                    <div class="people__avatar" style="background-image: url('assets/images/person_04.jpg');">
+                    <div class="people__avatar" data-person style="background-image: url('assets/images/person_04.jpg');">
 
                     </div>
                     <a class="people__mail"></a>
