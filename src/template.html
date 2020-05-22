@@ -14,7 +14,48 @@
 
 <body>
 
+    <section class="people-slider" data-people-slider>
+        <button type="button" class="people-slider__close" data-close>X</button>
+        <!-- Slider main container -->
+        <div class="swiper-container people-slider__container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide people-slider__slide">
+                    <div class="people-slider__wrapper">
+                        <h3 class="people-slider__title">Founder</h3>
+                        <h2 class="people-slider__name">Basia Sołtysińka 01</h2>
+                    </div>
+                </div>
 
+                <div class="swiper-slide people-slider__slide">
+                    <div class="people-slider__wrapper">
+                        <h3 class="people-slider__title">Founder</h3>
+                        <h2 class="people-slider__name">Basia Sołtysińka 02</h2>
+                    </div>
+                </div>
+
+                <div class="swiper-slide people-slider__slide">
+                    <div class="people-slider__wrapper">
+                        <h3 class="people-slider__title">Founder</h3>
+                        <h2 class="people-slider__name">Basia Sołtysińka 03</h2>
+                    </div>
+                </div>
+
+
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <button class="swiper-button-prev people-slider__prev"></button>
+            <button class="swiper-button-next people-slider__next"></button>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
     <section class="people">
         <div>
             <h2 class="h1">Meet our team</h2>
@@ -30,8 +71,8 @@
                     <a class="people__mail"></a>
                 </div>
                 <div class="people__description">
-                    <h3 class="people__name">Lorem ipsum</h3>
-                    <h4 class="people__title">CEO</h4>
+                    <h3 class="people__name">Basia Sołtysińska</h3>
+                    <h4 class="people__title">Founder</h4>
                     <h4 class="people__location">Warsaw</h4>
                 </div>
             </div>
@@ -44,8 +85,8 @@
                     <a class="people__mail"></a>
                 </div>
                 <div class="people__description">
-                    <h3 class="people__name">Lorem ipsum</h3>
-                    <h4 class="people__title">CEO</h4>
+                    <h3 class="people__name">Włas Chowaniec</h3>
+                    <h4 class="people__title">Founder</h4>
                     <h4 class="people__location">Warsaw</h4>
                 </div>
             </div>
@@ -58,8 +99,8 @@
                     <a class="people__mail"></a>
                 </div>
                 <div class="people__description">
-                    <h3 class="people__name">Lorem ipsum</h3>
-                    <h4 class="people__title">CEO</h4>
+                    <h3 class="people__name">Edyta Leśniewska</h3>
+                    <h4 class="people__title">Head of Human Resources</h4>
                     <h4 class="people__location">Warsaw</h4>
                 </div>
             </div>
@@ -72,9 +113,9 @@
                     <a class="people__mail"></a>
                 </div>
                 <div class="people__description">
-                    <h3 class="people__name">Lorem ipsum</h3>
-                    <h4 class="people__title">CEO</h4>
-                    <h4 class="people__location">Warsaw</h4>
+                    <h3 class="people__name">Joanna Pawluk</h3>
+                    <h4 class="people__title">Chief Growth Officer (CGO)</h4>
+                    <h4 class="people__location">London</h4>
                 </div>
             </div>
 
@@ -86,9 +127,9 @@
                     <a class="people__mail"></a>
                 </div>
                 <div class="people__description">
-                    <h3 class="people__name">Lorem ipsum</h3>
-                    <h4 class="people__title">CEO</h4>
-                    <h4 class="people__location">Warsaw</h4>
+                    <h3 class="people__name">David Saunders</h3>
+                    <h4 class="people__title">Business Development</h4>
+                    <h4 class="people__location">London</h4>
                 </div>
             </div>
 
@@ -100,9 +141,9 @@
                     <a class="people__mail"></a>
                 </div>
                 <div class="people__description">
-                    <h3 class="people__name">Lorem ipsum</h3>
-                    <h4 class="people__title">CEO</h4>
-                    <h4 class="people__location">Warsaw</h4>
+                    <h3 class="people__name">Adam Eldridge</h3>
+                    <h4 class="people__title">Business Development Director US</h4>
+                    <h4 class="people__location">Los Angeles</h4>
                 </div>
             </div>
 
@@ -114,8 +155,8 @@
                     <a class="people__mail"></a>
                 </div>
                 <div class="people__description">
-                    <h3 class="people__name">Lorem ipsum</h3>
-                    <h4 class="people__title">CEO</h4>
+                    <h3 class="people__name">Maha Mahda</h3>
+                    <h4 class="people__title">Chief Business Development Officer (CBDO)</h4>
                     <h4 class="people__location">Warsaw</h4>
                 </div>
             </div>
@@ -128,8 +169,8 @@
                     <a class="people__mail"></a>
                 </div>
                 <div class="people__description">
-                    <h3 class="people__name">Lorem ipsum</h3>
-                    <h4 class="people__title">CEO</h4>
+                    <h3 class="people__name">Elżbieta Kamińska</h3>
+                    <h4 class="people__title">International Client Service Manager</h4>
                     <h4 class="people__location">Warsaw</h4>
                 </div>
             </div>
@@ -142,8 +183,22 @@
                     <a class="people__mail"></a>
                 </div>
                 <div class="people__description">
-                    <h3 class="people__name">Lorem ipsum</h3>
-                    <h4 class="people__title">CEO</h4>
+                    <h3 class="people__name">Karolina Makuch</h3>
+                    <h4 class="people__title">Creation Manager</h4>
+                    <h4 class="people__location">Warsaw</h4>
+                </div>
+            </div>
+
+            <div class="people__item">
+                <div class="people__avatar-wrapper">
+                    <div class="people__avatar" style="background-image: url('assets/images/person_04.jpg');">
+
+                    </div>
+                    <a class="people__mail"></a>
+                </div>
+                <div class="people__description">
+                    <h3 class="people__name">Kamil Bolek</h3>
+                    <h4 class="people__title">Head of Communication</h4>
                     <h4 class="people__location">Warsaw</h4>
                 </div>
             </div>

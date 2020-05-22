@@ -1,0 +1,50 @@
+.people-slider {
+    border: 1px solid red;
+    min-height: 100vh;
+    background: $gray;
+    display: flex;
+    align-items: center;
+    &__wrapper {
+        border: dashed 5px rgba(255, 255, 255, .25);
+        display: inline-block;
+        padding: 30px 60px;
+    }
+    &__title {
+        font-size: 52px;
+        color: $white;
+        font-weight: 300;
+    }
+    &__name {
+        font-size: 90px;
+        color: $white;
+    }
+    &__close {
+        position: absolute;
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        background: $white;
+        top: 2rem;
+        right: 2rem;
+    }
+    &__prev {
+        position: absolute;
+        left: 2rem;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 2rem;
+        height: 2rem;
+        background: $white;
+        z-index: 100;
+    }
+    &__next {
+        position: absolute;
+        right: 2rem;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 2rem;
+        height: 2rem;
+        background: $white;
+        z-index: 100;
+    }
+}
