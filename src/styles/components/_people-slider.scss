@@ -1,7 +1,10 @@
 .people-slider {
-    border: 1px solid red;
     min-height: 100vh;
     background: $gray;
+    background-image: url("../images/slider-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     transform: scale(0);
@@ -35,12 +38,17 @@
     &__close {
         position: absolute;
         display: block;
-        width: 2rem;
-        height: 2rem;
-        background: $white;
+        width: 60px;
+        height: 60px;
+        border: none;
         top: 2rem;
         right: 2rem;
         z-index: 1000;
+        background: transparent;
+        background-image: url("../images/close.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
     &__prev {
         position: absolute;
@@ -51,6 +59,14 @@
         height: 2rem;
         background: $white;
         z-index: 100;
+        z-index: 1000;
+        border: none;
+        background: transparent;
+        background-image: url("../images/left.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        overflow: visible;
     }
     &__next {
         position: absolute;
@@ -61,5 +77,12 @@
         height: 2rem;
         background: $white;
         z-index: 100;
+        background: transparent;
+        border: none;
+        background-image: url("../images/right.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        overflow: visible;
     }
 }
