@@ -58,9 +58,9 @@ h4,
 @import 'components/people';
 @import 'components/people-slider';
 @import '~swiper/swiper';
-@import '~bulma-scss/utilities/all';
-@import '~bulma-scss/base/all';
-@import '~bulma-scss/grid/all';
+@import 'bulma/utilities/all';
+@import 'bulma/base/all';
+@import 'bulma/grid/all';
 .readers-only {
     position: absolute !important;
     /* Outside the DOM flow */
