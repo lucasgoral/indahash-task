@@ -9,6 +9,9 @@
         color: $secondary-color;
         font-weight: 600;
         margin-bottom: 120px;
+        @include mobile {
+            margin-bottom: 60px;
+        }
     }
     &__grid {
         // display: grid;

@@ -10,7 +10,6 @@ class peopleSwiper {
 
     }
     init() {
-        console.log('test')
         this.peopleSlider = document.querySelector('[data-people-slider]');
         this.peopleList = document.querySelector('[data-people-list]');
         if (this.peopleSlider && this.peopleList) {
@@ -23,7 +22,6 @@ class peopleSwiper {
         this.peopleSlider.querySelector('[data-close]').addEventListener('click', () => {
             this.closeModal();
         })
-        console.log(this.peopleList.querySelectorAll('[data-person]'));
         this.peopleList.querySelectorAll('[data-person]').forEach((element, index) => {
             element.addEventListener('click', () => {
                 this.openModal(index + 1);
@@ -65,7 +63,10 @@ class peopleSwiper {
             },
 
             // And if we need scrollbar
-
+            keyboard: {
+                enabled: true,
+                onlyInViewport: true,
+              },
         })
     }
 
