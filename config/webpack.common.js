@@ -73,11 +73,21 @@ module.exports = {
        *
        * Use Babel to transpile JavaScript files.
        */
+      // {
+      //   test: /\.js$/,
+      //   exclude: /node_modules/,
+      //   use: ['babel-loader', 'eslint-loader'],
+      // },
       {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: ['babel-loader', 'eslint-loader'],
-      },
+        test: /\.m?js$/,
+        exclude: /node_modules\/(?!(dom7|swiper)\/).*/,
+        use: {
+            loader: 'babel-loader',
+            options: {
+                presets: ['@babel/preset-env']
+            }
+        }
+    },
 
       /**
        * Styles

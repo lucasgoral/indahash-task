@@ -1,4 +1,5 @@
 
+import 'core-js'; 
 import modulesController from './js/modules-controller';
 
 import './styles/index.scss'

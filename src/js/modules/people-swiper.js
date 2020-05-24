@@ -10,6 +10,7 @@ class peopleSwiper {
 
     }
     init() {
+        console.log('test')
         this.peopleSlider = document.querySelector('[data-people-slider]');
         this.peopleList = document.querySelector('[data-people-list]');
         if (this.peopleSlider && this.peopleList) {
