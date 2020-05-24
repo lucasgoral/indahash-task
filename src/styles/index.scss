@@ -55,12 +55,12 @@ h4,
     font-size: 14px;
 }
 
-@import 'components/people';
-@import 'components/people-slider';
-@import '~swiper/swiper';
 @import 'bulma/utilities/all';
 @import 'bulma/base/all';
 @import 'bulma/grid/all';
+@import 'components/people';
+@import 'components/people-slider';
+@import '~swiper/swiper';
 .readers-only {
     position: absolute !important;
     /* Outside the DOM flow */
