@@ -1,4 +1,5 @@
 import Swiper from 'swiper';
+import focusLock from 'dom-focus-lock'
 const bodyScrollLock = require('body-scroll-lock');
 class peopleSwiper {
 
@@ -36,11 +37,13 @@ class peopleSwiper {
         this.peopleSlider.tabIndex = "0"
         this.swiper.slideTo(slide, 0);
         bodyScrollLock.disableBodyScroll(this.peopleSlider);
+        focusLock.on(this.peopleSlider);
     }
     closeModal() {
         this.peopleSlider.classList.remove('open')
         this.peopleSlider.tabIndex = "-1"
         bodyScrollLock.enableBodyScroll(this.peopleSlider);
+        focusLock.off(this.peopleSlider);
     }
 
     initSwiper() {

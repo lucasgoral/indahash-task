@@ -49,6 +49,7 @@
   "dependencies": {
     "body-scroll-lock": "^3.0.2",
     "bulma-scss": "^0.8.2",
+    "dom-focus-lock": "^1.0.4",
     "swiper": "^5.4.1"
   }
 }

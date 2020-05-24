@@ -53,6 +53,11 @@
         position: relative;
     }
     &__avatar {
+        display: block;
+        width: 100%;
+        border: 0;
+        padding: 0;
+        margin: 0;
         overflow: hidden;
         position: relative;
         border-radius: 50%;
@@ -93,13 +98,28 @@
     &__name {
         color: $secondary-color;
         font-weight: 400;
+        line-height: 1.2em;
+        margin-bottom: 0.5em;
+        @include mobile {
+            font-size: 20px;
+        }
     }
     &__title {
         color: $primary-color;
         font-weight: 400;
+        line-height: 1.2em;
+        margin-bottom: 0.5em;
+        @include mobile {
+            font-size: 20px;
+        }
     }
     &__location {
         color: $gray;
         font-weight: 400;
+        line-height: 1.2em;
+        margin-bottom: 0.5em;
+        @include mobile {
+            font-size: 20px;
+        }
     }
 }
