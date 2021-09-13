@@ -4112,7 +4112,7 @@ a.has-text-danger:focus, a.has-text-danger:hover {
 }
 
 .people {
-    background-image: url(indahash-task/images/bg.png);
+    background-image: url(./images/bg.png);
     background-position: 50%;
     background-repeat: repeat;
     overflow: hidden;
@@ -4151,7 +4151,7 @@ a.has-text-danger:focus, a.has-text-danger:hover {
     right: 5%;
     z-index: 10;
     border-radius: 50%;
-    background-image: url(images/mail.svg);
+    background-image: url(./images/mail.svg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 45% 45%;
@@ -4253,7 +4253,7 @@ a.has-text-danger:focus, a.has-text-danger:hover {
 
 .people-slider {
     background: grey;
-    background-image: url(images/slider-bg.jpg);
+    background-image: url(./images/slider-bg.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4325,7 +4325,7 @@ a.has-text-danger:focus, a.has-text-danger:hover {
     right: 3rem;
     z-index: 1000;
     background: transparent;
-    background-image: url(indahash-task/images/close.svg);
+    background-image: url(./images/close.svg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -4362,7 +4362,7 @@ a.has-text-danger:focus, a.has-text-danger:hover {
     z-index: 1000;
     border: none;
     background: transparent;
-    background-image: url(indahash-task/images/left.svg);
+    background-image: url(./images/left.svg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -4398,7 +4398,7 @@ a.has-text-danger:focus, a.has-text-danger:hover {
     z-index: 100;
     background: transparent;
     border: none;
-    background-image: url(indahash-task/images/right.svg);
+    background-image: url(./images/right.svg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
