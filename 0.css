@@ -4151,7 +4151,7 @@ a.has-text-danger:focus, a.has-text-danger:hover {
     right: 5%;
     z-index: 10;
     border-radius: 50%;
-    background-image: url(indahash-task/images/mail.svg);
+    background-image: url(images/mail.svg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 45% 45%;
@@ -4253,7 +4253,7 @@ a.has-text-danger:focus, a.has-text-danger:hover {
 
 .people-slider {
     background: grey;
-    background-image: url(indahash-task/images/slider-bg.jpg);
+    background-image: url(images/slider-bg.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
